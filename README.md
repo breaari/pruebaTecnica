@@ -2,6 +2,9 @@
 
 Objetivo: Crear una página web de un perfil de usuario que incluya información básica, una lista de intereses y una sección de contacto.
 
+Aquí puedes acceder online!
+🔗https://pruebatecnica-production-1892.up.railway.app/
+
 ## Instalación
 
 Para instalar y ejecutar este proyecto en tu máquina local, debes seguir estos pasos:

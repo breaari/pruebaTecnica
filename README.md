@@ -1,20 +1,24 @@
-# Nombre del Proyecto
+# Prueba Técnica - Ariana Brea
 
-Descripción corta o resumen del proyecto.
+Objetivo: Crear una página web de un perfil de usuario que incluya información básica, una lista de intereses y una sección de contacto.
 
 ## Instalación
 
-Para instalar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
+Para instalar y ejecutar este proyecto en tu máquina local, debes seguir estos pasos:
 
 1. **Clona el repositorio:**
 
+Primero, clona este repositorio en tu máquina local. Abre tu terminal y ejecuta el siguiente comando:
 
-Reemplaza `<url_del_repositorio>` con la URL real de tu repositorio.
+```bash
+git clone <https://github.com/breaari/pruebaTecnica.git>
 
 2. **Instala las dependencias:**
 
 Navega hasta el directorio raíz del proyecto y ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
+```bash
+npm install
 
 Este comando asume que tienes Node.js y npm instalados globalmente en tu máquina.
 
@@ -22,22 +26,8 @@ Este comando asume que tienes Node.js y npm instalados globalmente en tu máquin
 
 Una vez que hayas instalado todas las dependencias, puedes ejecutar el proyecto con el siguiente comando:
 
+```bash
+npm start
 
-Esto iniciará el proyecto y podrás acceder a él desde tu navegador web en `http://localhost:3000` (o la URL que se indique).
+Esto iniciará el proyecto y podrás acceder a él desde tu navegador web en `http://localhost:3000`,
 
-## Contribución
-
-Si deseas contribuir a este proyecto, sigue estos pasos:
-
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
-3. Haz tus cambios.
-4. Haz commit a tus cambios (`git commit -am 'Agrega nueva característica'`).
-5. Sube tus cambios (`git push origin feature/nueva-caracteristica`).
-6. Abre una solicitud de extracción.
-
-## Licencia
-
-Indica aquí la licencia bajo la cual se distribuye tu proyecto, por ejemplo:
-
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.

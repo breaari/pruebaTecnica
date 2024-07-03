@@ -49,6 +49,7 @@
     cursor: pointer;
     border: none;
     margin-left: auto;
+    font-size: 18px;
 }
 
 .contactbutton:hover {

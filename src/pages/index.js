@@ -6,7 +6,7 @@ import styles from './index.module.css';
 import React from "react";
 
 export async function getServerSideProps() {
-  const res = await fetch('http://localhost:3000/api/user');
+  const res = await fetch('https://pruebatecnica-production-1892.up.railway.app/api/user');
   const usuario = await res.json();
 
   return {

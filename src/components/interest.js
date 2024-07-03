@@ -2,14 +2,14 @@ import React from 'react';
 import styles from './interest.module.css';
 
 const Interests = ({ usuario }) => {
-  const colors = ['#ff9561', '#00669b', '#ffc9ac', '#002c5c', '#002c5c', '#ff9561'];
+  const colors = ['#ff9561', '#00669b', '#ffc9ac', '#002c5c', '#ffc9ac', '#00669b'];
 
 
   return (
     <div className={styles.interestscontainer}>
       <h2 className={styles.tittleinterest}>Intereses</h2>
       <div className={styles.interests}>
-        {usuario.intereses.map((interes, index) => {
+        { usuario.intereses && usuario.intereses.map((interes, index) => {
          
           return (
             <div
@@ -18,6 +18,7 @@ const Interests = ({ usuario }) => {
               style={{
                 backgroundColor: colors[index % colors.length]
               }}
+              data-testid="interest"
             >
               {interes}
             </div>

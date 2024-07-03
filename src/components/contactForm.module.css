@@ -1,0 +1,69 @@
+.contactcontainer {
+    background-color: white;
+    border-radius: 10px; 
+    border: 1px solid #dfdeda;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    font-weight: 500;
+  }
+
+.datacontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.inputcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.input {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 12px;
+}
+
+.input:focus {
+    border: none;
+    outline: none;
+}
+
+.contactError {
+    font-size: 14px;
+    color: rgb(177, 16, 16);
+    line-height: 0.5; 
+}
+
+.contactbutton {
+    display: flex;
+    background-color: #002c5c;
+    color:white;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    margin-left: auto;
+}
+
+.contactbutton:hover {
+    background-color: #333 ;
+    opacity: 0.7 ; /* Opacidad al 30% */
+}
+
+
+@media (max-width: 980px) {
+    .datacontainer {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+    .inputcontainer {
+        text-align: start;
+    }
+}

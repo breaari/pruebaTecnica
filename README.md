@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nombre del Proyecto
 
-## Getting Started
+Descripción corta o resumen del proyecto.
 
-First, run the development server:
+## Instalación
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Para instalar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clona el repositorio:**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Reemplaza `<url_del_repositorio>` con la URL real de tu repositorio.
 
-## Learn More
+2. **Instala las dependencias:**
 
-To learn more about Next.js, take a look at the following resources:
+Navega hasta el directorio raíz del proyecto y ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Este comando asume que tienes Node.js y npm instalados globalmente en tu máquina.
 
-## Deploy on Vercel
+## Uso
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Una vez que hayas instalado todas las dependencias, puedes ejecutar el proyecto con el siguiente comando:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Esto iniciará el proyecto y podrás acceder a él desde tu navegador web en `http://localhost:3000` (o la URL que se indique).
+
+## Contribución
+
+Si deseas contribuir a este proyecto, sigue estos pasos:
+
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Haz tus cambios.
+4. Haz commit a tus cambios (`git commit -am 'Agrega nueva característica'`).
+5. Sube tus cambios (`git push origin feature/nueva-caracteristica`).
+6. Abre una solicitud de extracción.
+
+## Licencia
+
+Indica aquí la licencia bajo la cual se distribuye tu proyecto, por ejemplo:
+
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.

@@ -1,0 +1,26 @@
+.aboutcontainer {
+    color: #333;
+    background-color: white;
+    border-radius: 10px; 
+    border: 1px solid #dfdeda;
+    box-sizing: border-box;
+    padding: 20px 50px;
+}
+
+/* .tittlecontainer {
+    display: flex ;
+    flex-direction: row ;
+    align-items: center;
+    
+} */
+
+/* .aboutseparator {
+    font-weight: 800;
+    margin: 0 10px;
+
+} */
+
+.abouttext {
+    font-weight: 500;
+    line-height: 1.5; 
+}

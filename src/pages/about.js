@@ -1,10 +1,10 @@
 import React from 'react';
 
-const About = () => {
+const About = ({usuario}) => {
     return (
       <div>
         <h2>Sobre Mí</h2>
-        <p>Descripción breve del usuario...</p>
+        <p>{usuario.sobreMi}</p>
       </div>
     );
   };

@@ -1,0 +1,7 @@
+ {
+      "id": 1,
+      "nombre": "Ariana Brea",
+      "imagen": "/assets/imagen-perfil.png",
+      "sobreMi": "Hola! Soy Ariana, una apasionada Full Stack Developer con experiencia en Javascript, Node.js, Express, React, Redux, CSS, HTML, SQL y más. Me destaco por mi capacidad de resolución y mi enfoque positivo ante desafíos nuevos. Disfruto combinar lógica y creatividad para crear soluciones innovadoras. ¿Contactamos?",
+      "intereses": ["Programación", "Vehículos", "Baile", "Diseño", "Viajar", "Familia"]
+  }

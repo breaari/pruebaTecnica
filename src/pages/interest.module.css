@@ -1,0 +1,28 @@
+
+.tittleinterest {
+    color: #333;
+}
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.interest {
+    border-radius: 15px;
+    list-style-type: none; 
+    padding: 6px 15px;
+    color: white;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.interest:hover {
+    background-color: black !important;
+    opacity: 0.7 !important; /* Opacidad al 30% */
+ }
+  
+
+

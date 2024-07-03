@@ -5,6 +5,8 @@ Objetivo: Crear una página web de un perfil de usuario que incluya información
 Aquí puedes acceder online!
 🔗https://pruebatecnica-production-1892.up.railway.app/
 
+❗ En el caso de despliegue local, descomentá la línea 9 del archivo /src/pages/index.js y comentá la línea 10 para realizar una petición correcta!
+
 ## Instalación
 
 Para instalar y ejecutar este proyecto en tu máquina local, debes seguir estos pasos:

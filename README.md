@@ -12,6 +12,7 @@ Primero, clona este repositorio en tu máquina local. Abre tu terminal y ejecuta
 
 ```bash
 git clone <https://github.com/breaari/pruebaTecnica.git>
+```
 
 2. **Instala las dependencias:**
 
@@ -19,6 +20,7 @@ Navega hasta el directorio raíz del proyecto y ejecuta el siguiente comando par
 
 ```bash
 npm install
+```
 
 Este comando asume que tienes Node.js y npm instalados globalmente en tu máquina.
 
@@ -28,6 +30,8 @@ Una vez que hayas instalado todas las dependencias, puedes ejecutar el proyecto 
 
 ```bash
 npm start
+```
 
 Esto iniciará el proyecto y podrás acceder a él desde tu navegador web en `http://localhost:3000`,
+
 

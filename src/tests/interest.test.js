@@ -1,4 +1,3 @@
-// components/__tests__/Interests.test.js
 import { render, screen } from '@testing-library/react';
 import React from 'react';
 import Interests from '../components/interest';
